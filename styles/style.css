@@ -1,0 +1,250 @@
+body {
+  font-family: Audiowide, Arial;
+  margin: 0;
+}
+
+.StudyGenie-logo {
+  height: 65px;
+  padding-top: 0;
+  padding-left: 75px;
+  display: flex;
+  align-items: center;
+
+}
+
+.header {
+  background-color: rgb(13, 7, 46);
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  border: none;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  padding-right: 100px;
+  color: white;
+  flex-shrink: 0;
+}
+
+button {
+  font-family: Audiowide, Arial;
+  font-size: 15px;
+  padding: 0;
+  background-color: black;
+  color: white;
+  border: none;
+  width: 190px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+ .hero-bg {
+  width: 1280px;
+  position: relative;
+  margin-top: 62px;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  object-fit: cover;
+  display: block;
+  box-sizing: border-box;
+  background-size: cover;
+}
+
+.hero-text {
+  position: absolute;
+  color: white;
+  left: 65px;
+  top: 235px;
+  width: 500px;
+}
+
+.hero-title {
+  font-size: 55px;
+  font-weight: 500;
+  width: 450px;
+  line-height: 65px;
+  margin-bottom: 0;
+}
+
+.hero-description {
+  line-height: 25px;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.journey-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.steps-card,
+.stats-card,
+.generate-card,
+.reminder-card,
+.community-card {
+  border-color: black;
+  border-width: 2px;
+  border-style: solid;
+  width: 500px;
+  margin-left: 70px;
+}
+
+.steps-background {
+  height: 700px;
+}
+
+.stats-background {
+  height: 462px;
+}
+
+.community-bg {
+  height: 346px;
+}
+
+.simplified-description {
+  text-align: center;
+}
+
+.stats-card {
+  right: 0;
+}
+
+.features {
+  background-color: blueviolet;
+  width: 1280px;
+  position: relative;
+  margin-top: 62px;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  padding-top: 1px;
+}
+
+.features-text {
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.features-title {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.features-container {
+  display: flex;
+  justify-content: center;
+  column-gap: 16px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.feature {
+  text-align: center;
+  width: 200px;
+  background-color: rgb(224, 224, 224);
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+
+.sign-up-button {
+  border: none;
+}
+
+.ai-gen-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  align-items: center;
+  padding: 0;
+  background-color: blueviolet;
+}
+
+.students-pic {
+  height: 200px;
+}
+
+.ai-gen-text {
+  text-align: left;
+}
+
+.ai-gen-title {
+  text-align: left;
+}
+
+.plans-container,
+.testimonial-container {
+  display: flex;
+  grid-template-columns: 250px 250px;
+  justify-content: center;
+  align-items: top;
+  flex-direction: s;
+  margin-left: 10px;
+  margin-right: 10px;
+  column-gap: 20px;
+  background-color: lightskyblue;
+}
+
+.free-plan-card,
+.pro-plan-card {
+  text-align: center;
+  width: 250px;
+  background-color: rgb(224, 224, 224);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.user-testimonial,
+.testimonial-author {
+  text-align: center;
+  width: 250px;
+  background-color: rgb(224, 224, 224);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.testimonial-author img {
+  height: 50px;
+  border-radius: 25px;
+}
+
+.FAQs,
+.testimonials,
+.pricings {
+  background-color: lightskyblue;
+}
+
+.faq-container {
+  background-color: rgb(224, 224, 224);
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+footer {
+  background-color: lightskyblue;
+  padding: 20px;
+}
